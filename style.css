@@ -1,0 +1,121 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    color: #4821DF;
+    font-size: 1.1rem;
+}
+
+.clr-title {
+    font-size: 3.5rem;
+}
+
+.clr-title span {
+    display: block;
+    color: #06C28F;
+}
+
+.clr-subtitle {
+    color: #593D85;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.clr-text {
+    color: #D23666;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.p-desc {
+    color: #151515;
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.5rem;
+}
+
+.res {
+    margin-left: auto;
+}
+
+.flex-edit {
+    align-items: center;
+}
+
+.bg-about {
+    background-image: url(img/bg-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-desc {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bg-stat {
+    background-color: #EEE;
+}
+
+.clr-stat1 {
+    color: rgba(255, 0, 0, 0.76);
+}
+
+.clr-stat2 {
+    color: rgba(75, 0, 130, 0.76);
+}
+
+.clr-stat3 {
+    color: rgba(30, 140, 255, 0.76);
+}
+
+.br-1 {
+    border-radius: 7px;
+}
+
+.contact-title {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+
+.clr-contact1 {
+    color: #593D85;
+}
+
+.clr-contact2 {
+    color: #06C28F;
+}
+
+.footer-title {
+    color: #E5845D;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.footer-title span {
+    color: #B8FA92;
+}
+
+.footer-desc {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .mb__sm {
+        margin-bottom: 2rem;
+    }
+
+    .br-1 {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .card-desc {
+        width: 100%;
+    }
+}
